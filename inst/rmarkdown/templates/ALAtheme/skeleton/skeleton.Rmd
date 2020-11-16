@@ -113,8 +113,8 @@ layout: false
 ]
 <br>
 <br>
-<img class="logo" src="img/img/NCRIS_logo.png" width="10%" align="left">
-<img class="logo" src="CSIRO_logo.png" width="10%" align="left">
+<img class="logo" src="img/NCRIS_logo.png" width="10%" align="left">
+<img class="logo" src="img/CSIRO_logo.png" width="10%" align="left">
 <br>
 <br>
 .small[The ALA is made possible by contributions from its many partners. It receives support through the Australian Government through the National Collaborative Research Infrastructure Strategy (NCRIS) and is hosted by CSIRO.]
