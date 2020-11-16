@@ -1,0 +1,128 @@
+---
+title: "ALA Content"
+subtitle: "A cool subtitle"
+author: "A Person"
+date: "Xth of Y 2020"
+output:
+  xaringan::moon_reader:
+    css:
+      - "slides.css"
+      - "ALA_xaringan_css.css"
+      - "ALA_xaringan_fonts.css"
+      - "https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css"
+    seal: false
+    yolo: false
+    nature:
+      ratio: '16:9'
+      navigation:
+        scroll: false
+
+---
+class: ALA-title-slide animated fadeIn
+
+<img class="logo" src="img/ALA_Logo_Stacked+Tagline_REV-RGB.png" width="40%" align="right">
+<br>
+<br>
+.main-title[<br><br><br>ALA slides title]<br>
+.main-subtitle[ALA slides subtitle]<br>
+.main-body[
+  <b>Speaker</b> | Role, Atlas of Living Australia<br>
+  Date goes here
+]
+<br>
+<br>
+<img class="logo" src="img/NCRIS-PROVIDER-REV.png" width="10%" align="left">
+<img class="logo" src="img/CSIRO_RevTrans_hr.png" width="10%" align="left">
+<br>
+<br>
+.small[The ALA is made possible by contributions from its many partners. It receives support through the Australian Government through the National Collaborative Research Infrastructure Strategy (NCRIS) and is hosted by CSIRO.]
+
+---
+class: ALA-standard-slide animated fadeIn
+layout: true
+background-image: url(img/ALA_Logo_Inline_RGB.png)
+background-position: 90% 100%
+background-size: 20%
+---
+
+.center[
+.slide-title[
+<br>
+<br>
+A slide for a significant quote
+]
+<br>
+<br>
+<br>
+...with some extra small text below.
+]
+---
+
+.slide-title[A slide with code in]
+
+```{r, stm_plot, echo=FALSE, fig.height=7, fig.width=13}
+library(ggplot2)
+ggplot(data.frame(x = seq_len(10), y = seq_len(10))) +
+  geom_point(aes(x = x, y = y))
+```
+
+---
+
+.slide-title[A slide with an image]
+<br>
+.right[.slide-subtitle[right-aligned subtitle]]
+
+<img class="png" src="images/misc/spatial_portal.png" width="90%" align="center">
+
+---
+
+.slide-title[A slide with two columns]
+<br>
+
+.pull-left[
+  Left-hand text
+]
+
+.pull-right[
+  Right-hand text
+]
+
+---
+
+.slide-title[<b>Emphasis-style dot points</b>
+<br>
+<br>
+]
+.slide-title[point 1] .slide-subtitle[&nbsp;&nbsp;some text]<br><br>
+.slide-title[point 2] .slide-subtitle[&nbsp;&nbsp;more text]<br><br>
+.slide-title[point 3] .slide-subtitle[&nbsp;&nbsp;text again]<br><br>
+
+---
+
+.slide-title[Subtitle-style dot points
+<br>
+<br>
+]
+.slide-subtitle[Point 1]<br><br><br>
+.slide-subtitle[Point 2]<br><br><br>
+.slide-subtitle[Point 3]
+
+---
+class: ALA-title-slide animated fadeIn
+layout: false
+
+<img class="logo" src="images/logos/ALA_Logo_Stacked+Tagline_REV-RGB.png" width="40%" align="right">
+.main-title[<br><br><br>Thank You]<br>
+.main-body[
+  <b>Speaker</b><br>
+  Role<br><br>
+  <b>t:</b> +61 000 000 000<br>
+  <b>e:</b> a.person@csiro.au
+]
+<br>
+<br>
+<img class="logo" src="images/logos/NCRIS-PROVIDER-REV.png" width="10%" align="left">
+<img class="logo" src="images/logos/CSIRO_RevTrans_hr.png" width="10%" align="left">
+<br>
+<br>
+.small[The ALA is made possible by contributions from its many partners. It receives support through the Australian Government through the National Collaborative Research Infrastructure Strategy (NCRIS) and is hosted by CSIRO.]

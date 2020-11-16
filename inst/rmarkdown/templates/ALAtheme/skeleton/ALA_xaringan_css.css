@@ -1,0 +1,29 @@
+
+/* slide attributes */
+.ALA-title-slide {
+  background-color: #637073;
+}
+
+.ALA-standard-slide {
+  background-color: #fff;
+}
+
+/* title slide images */
+.main-image {
+  width: 100px;
+  height: 100px;
+}
+
+.logo {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+img {
+  margin-left: 40px;
+  margin-right: 60px;
+}
+
+.png {
+  border: 1px solid #637073;
+}

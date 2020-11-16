@@ -1,0 +1,13 @@
+Package: ALAtheme
+Version: 0.0.1
+Date: 2020-11-06
+Title: A xaringan theme for the Atlas of Living Australia
+Authors@R: c(person(c("Martin", "J."), "Westgate", role=c("aut", "cre"),
+  email="martinjwestgate@gmail.com"))
+Description: This is a simple theme for xaringan slide decks showing relevant material for the Atlas of Living Australia. It is not official.
+Depends: R (>= 4.0.0)
+Imports: xaringan
+License: GPL-3
+URL: https://ala.org.au
+BugReports: https://github.com/mjwestgate/ALAtheme/issues
+LazyData: true

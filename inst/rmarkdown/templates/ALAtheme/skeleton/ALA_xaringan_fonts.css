@@ -1,0 +1,39 @@
+@import url(https://fonts.googleapis.com/css?family=Lato);
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+
+.h1, .h2, .h3, .main-title, .main-subtitle {
+  font-family: Lato;
+  font-weight: normal;
+}
+
+.main-title {
+  color: #fff;
+  font-size: 300%;
+}
+
+.main-subtitle {
+  color: #000;
+  font-size: 200%;
+}
+
+.main-body {
+  font-family: Roboto;
+  color: #fff;
+}
+
+.small{
+  font-size: 70%;
+  color: #fff;
+}
+
+body { font-family: Roboto; }
+
+.slide-title {
+  color: #F26649;
+  font-size: 200%;
+}
+
+.slide-subtitle {
+  color: #637073;
+  font-size: 120%;
+}
