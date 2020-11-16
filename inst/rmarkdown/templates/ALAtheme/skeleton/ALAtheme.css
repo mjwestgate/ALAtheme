@@ -1,4 +1,3 @@
-
 /* slide attributes */
 .ALA-title-slide {
   background-color: #637073;
@@ -26,4 +25,36 @@ img {
 
 .png {
   border: 1px solid #637073;
+}
+
+/* font colors etc */
+
+.main-title {
+  color: #fff;
+  font-size: 300%;
+}
+
+.main-subtitle {
+  color: #000;
+  font-size: 200%;
+}
+
+.main-body {
+  font-family: Roboto;
+  color: #fff;
+}
+
+.small{
+  font-size: 70%;
+  color: #fff;
+}
+
+.slide-title {
+  color: #F26649;
+  font-size: 200%;
+}
+
+.slide-subtitle {
+  color: #637073;
+  font-size: 120%;
 }
