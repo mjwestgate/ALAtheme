@@ -12,7 +12,6 @@ output:
       - "https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css"
     seal: false
     yolo: false
-    template: ALAtheme
     nature:
       ratio: '16:9'
       navigation:
@@ -24,11 +23,11 @@ class: ALA-title-slide animated fadeIn
 <img class="logo" src="ALA_Logo_Stacked+Tagline_REV-RGB.png" width="40%" align="right">
 <br>
 <br>
-.main-title[<br><br><br>$title$]<br>
-.main-subtitle[$subtitle$]<br>
+.main-title[<br><br><br>Add title here]<br>
+.main-subtitle[Add subtitle here]<br>
 .main-body[
-  <b>$author$</b> | Role, Atlas of Living Australia<br>
-  $date$
+  <b>Author</b> | Role, Atlas of Living Australia<br>
+  Date
 ]
 <br>
 <br>
@@ -59,7 +58,7 @@ A slide for a significant quote
 ]
 ---
 
-.slide-title[A slide with code in]
+.slide-title[A slide containing code]
 
 ```{r, stm_plot, echo=FALSE, fig.height=7, fig.width=13}
 library(ggplot2)
